@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "code_clubium",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "codeclubdev:code_clubium"
+    }
+  },
+  "result": {
+    "item": "codeclubdev:code_clubium_block"
+  }
+}

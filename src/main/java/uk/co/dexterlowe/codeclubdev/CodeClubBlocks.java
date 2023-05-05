@@ -23,12 +23,12 @@ public class CodeClubBlocks {
     public static final RegistryObject<Block> CODECLUBIUM_ORE = BLOCKS.register(CODECLUBIUM_NAMER.getOreName(), () -> new DropExperienceBlock(BlockBehaviour.Properties
             .of(Material.STONE)
             .requiresCorrectToolForDrops()
-            .strength(6, 10), UniformInt.of(1, 6)));
+            .strength(2, 10), UniformInt.of(1, 6)));
 
     public static final RegistryObject<Block> CODECLUBIUM_DEEPSLATE_ORE = BLOCKS.register(CODECLUBIUM_NAMER.getDeepSlateOreName(), () -> new DropExperienceBlock(BlockBehaviour.Properties
             .of(Material.STONE)
             .requiresCorrectToolForDrops()
-            .strength(10, 12), UniformInt.of(5, 8)));
+            .strength(3, 12), UniformInt.of(5, 8)));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

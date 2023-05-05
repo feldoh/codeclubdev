@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "code_clubium",
+  "ingredient": {
+    "item": "codeclubdev:raw_code_clubium"
+  },
+  "result": "codeclubdev:code_clubium"
+}

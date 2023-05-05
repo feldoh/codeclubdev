@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "code_clubium",
+  "ingredients": [
+    {
+      "item": "codeclubdev:code_clubium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "codeclubdev:code_clubium"
+  }
+}

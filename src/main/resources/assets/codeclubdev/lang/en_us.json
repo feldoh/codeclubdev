@@ -1,9 +1,9 @@
 {
   "item.codeclubdev.code_clubium": "Code Clubium",
   "item.codeclubdev.raw_code_clubium": "Raw Code Clubium",
-  "item.codeclubdev.code_clubium_block": "Code Clubium Block",
-  "item.codeclubdev.code_clubium_ore": "Code Clubium Ore",
-  "item.codeclubdev.deepslate_code_clubium_ore": "Code Clubium DeepSlate Ore",
+  "block.codeclubdev.code_clubium_block": "Code Clubium Block",
+  "block.codeclubdev.code_clubium_ore": "Code Clubium Ore",
+  "block.codeclubdev.deepslate_code_clubium_ore": "Code Clubium DeepSlate Ore",
 
   "itemgroup.codeclubtab": "Code Club Tab"
 }
