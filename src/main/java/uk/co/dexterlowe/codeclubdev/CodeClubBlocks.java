@@ -9,15 +9,16 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import uk.co.dexterlowe.codeclubdev.blocks.CodeClubium;
 
 public class CodeClubBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CodeClub.MODID);
 
     public static final NamingWrapper CODECLUBIUM_NAMER = new NamingWrapper("code_clubium");
-    public static final RegistryObject<Block> CODECLUBIUM = BLOCKS.register(CODECLUBIUM_NAMER.getBlockName(), () -> new Block(BlockBehaviour.Properties
+    public static final RegistryObject<Block> CODECLUBIUM = BLOCKS.register(CODECLUBIUM_NAMER.getBlockName(), () -> new CodeClubium(BlockBehaviour.Properties
             .of(Material.STONE)
             .requiresCorrectToolForDrops()
-            .speedFactor(5f)
+            .speedFactor(1.5f)
             .strength(1, 10)));
 
     public static final RegistryObject<Block> CODECLUBIUM_ORE = BLOCKS.register(CODECLUBIUM_NAMER.getOreName(), () -> new DropExperienceBlock(BlockBehaviour.Properties
