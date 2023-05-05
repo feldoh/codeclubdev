@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "uk.co.dexterlowe.codeclubdev",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "codeclubdev.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

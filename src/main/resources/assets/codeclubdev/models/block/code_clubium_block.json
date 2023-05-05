@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "codeclubdev:block/code_clubium_block"
+  }
+}
